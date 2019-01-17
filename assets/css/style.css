@@ -1,0 +1,54 @@
+body {
+    background: url(../../assets/images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img {
+    width: 450px;
+    padding: 15px;
+}
+.start{
+	padding:0;		
+}
+
+h1{ 
+	text-align: center;
+}
+.header{
+	height: 200px;
+	width: 100%;
+}
+
+.startBtn{
+	width: 500px;
+}
+.trivSection{ 
+	margin-top: 100px;
+	text-align: center;
+ }
+
+.start{
+	padding:0;		
+}
+
+.startBtn{
+	width: 500px;
+}
+.trivSection{ 
+	margin-top: 100px;
+	text-align: center;
+ }
+ .progress{
+     color: red;
+ }
+ .timerSection {
+     color: red;
+ }
+
+
+
+ 
+
+ 
