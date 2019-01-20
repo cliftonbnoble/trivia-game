@@ -76,9 +76,10 @@ let questAnswers = {
 //Functions
 //Start Game function
 let StartGame = function () {
-    //Clear section when clicked
     $("#start-game").on('click', function(){
+        //Clear section when clicked
         $(".question-area").empty();
+        //Play Theme
         audio.play();
         createQandA();
     })
@@ -114,7 +115,7 @@ let checkAnswers = function () {
     let userAnswer = $(this).data("type");
     let correct = questAnswers[qNum].correct;
     // let wrong = questAnswers[qnum].wrong;
-
+    console.log("Logging user answer" + userAnswer);
 
     if (userAnswer === correct) {
         //Award correct
